@@ -1,0 +1,171 @@
+#section_1 {
+  display: flex;
+  flex-direction: row;
+}
+
+#left_col {
+  margin-top: 100px;
+  width: 50%;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+#top_left {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 80px;
+  padding-left: 30px;
+  padding-bottom: 40px;
+}
+
+#bottom_left {
+  background-image: url("../../assets/img_1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+  width: 100%;
+  min-height: 500px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+#right_col {
+  max-width: 50%;
+  background-image: url("../../assets/img_2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  margin-left: 20px;
+  position: relative;
+}
+
+#search_modal {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(254, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 10;
+  min-width: 800px;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal_panel {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#modal_body {
+  width: 100%;
+}
+
+#modal_footer {
+  position: relative;
+  background-color: rgba(23, 37, 42, 1);
+  transition: background-color 0.5s ease;
+  border-radius: 10px;
+  padding: 5px 40px;
+  cursor: pointer;
+}
+
+#modal_footer:hover {
+  background-color: rgba(58, 175, 169, 1);
+}
+
+#modal_search {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-right: 50px;
+  text-align: left;
+  background: none;
+  border: none;
+  color: rgba(222, 241, 242, 1);
+  cursor: pointer;
+}
+
+#location_icon {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+}
+
+#arrow_right {
+  position: absolute;
+  right: 60px;
+  top: 5px;
+}
+
+.modal_text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.input_div {
+  position: relative;
+}
+
+.modal_input {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border: 2px solid rgba(222, 241, 242, 1);
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  background: none;
+  padding: 20px 30px;
+  color: rgba(23, 37, 42, 1);
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+.modal_input_icon {
+  padding: 20px 50px;
+}
+
+.arrow_down {
+  position: absolute;
+  right: 30px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.modal_button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.modal_button:hover {
+  background-color: rgba(58, 175, 169, 1);
+}
+
+.bold_text {
+  font-weight: 700;
+}

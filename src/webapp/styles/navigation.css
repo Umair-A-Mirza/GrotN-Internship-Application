@@ -12,6 +12,7 @@
   width: 100%;
   box-sizing: border-box; /* Was having issues with padding */
   z-index: 1000;
+  backdrop-filter: blur(10px);
 }
 
 .navbar ul {
@@ -61,7 +62,7 @@
 
 #navbar_text {
   position: absolute;
-  left: 50%;
+  left: 55%;
   font-size: 24px;
   color: rgba(23, 37, 42, 1);
 }
