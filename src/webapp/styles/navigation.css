@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(254, 255, 255, 0.5);
+  padding: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box; /* Was having issues with padding */
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li {
+  margin-right: 50px;
+}
+
+.navbar ul li img {
+  height: 40px;
+  width: auto;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgba(23, 37, 42, 1);
+  transition: background-color 0.5s ease;
+}
+
+.navbar ul li a:hover {
+  color: rgba(58, 175, 169, 1);
+}
+
+#login_button {
+  background-color: rgba(23, 37, 42, 1);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  transition: background-color 0.5s ease;
+  border-radius: 10px;
+}
+
+#login_button:hover {
+  background-color: rgba(58, 175, 169, 1);
+}
+
+#navbar_text {
+  position: absolute;
+  left: 50%;
+  font-size: 24px;
+  color: rgba(23, 37, 42, 1);
+}
+
+#logo {
+  width: 40px;
+  height: 40px;
+}
