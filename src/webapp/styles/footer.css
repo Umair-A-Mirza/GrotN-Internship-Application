@@ -1,0 +1,82 @@
+#footer {
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins, sans-serif;
+  color: white;
+  background-color: #17252a;
+  padding: 20px 100px 20px 100px;
+  box-sizing: border-box;
+}
+
+#top_footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+#footer #top_left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 100px;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+#footer_logo {
+  max-width: 90px;
+  max-height: 90px;
+  border-radius: 10px;
+}
+
+#footer #address_line {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+#footer #contact_details {
+  padding-bottom: 30px;
+}
+
+#footer #socials {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+#footer .social {
+  cursor: pointer;
+}
+
+#footer .top_col {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-weight: 600;
+  font-size: 24px;
+  padding-left: 200px;
+}
+
+#footer #top_right {
+  padding-left: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_title {
+  color: rgba(43, 122, 120, 1);
+}
+
+.footer_page {
+  cursor: pointer;
+}
+
+#bottom_footer {
+  padding-top: 20px;
+  border-top: 2px solid rgba(222, 241, 242, 1);
+  border-color: white;
+  padding-bottom: 40px;
+  text-align: right;
+  font-size: 30px;
+}
