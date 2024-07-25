@@ -10,13 +10,13 @@
   top: 0;
   left: 0;
   width: 100%;
-  box-sizing: border-box; /* Was having issues with padding */
+  box-sizing: border-box; /* Preventing overflow */
   z-index: 1000;
   backdrop-filter: blur(10px);
 }
 
 .navbar ul {
-  list-style-type: none;
+  list-style-type: none; /* Remove underline */
   margin: 0;
   padding: 0;
   display: flex;
@@ -40,6 +40,10 @@
 
 .navbar ul li a:hover {
   color: rgba(58, 175, 169, 1);
+}
+
+.navbar #drop {
+  cursor: pointer;
 }
 
 #login_button {
