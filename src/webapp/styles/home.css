@@ -1,4 +1,4 @@
-html {
+body {
   font-size: 16px; /* Setting base font size for rem as it is more scalable than px */
   font-family: "Poppins", sans-serif;
 }
@@ -55,6 +55,7 @@ html {
 }
 
 #search_modal {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   background-color: rgba(254, 255, 255, 0.2);
@@ -94,6 +95,7 @@ html {
 }
 
 #modal_search {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   padding-right: 3.5rem;
@@ -130,6 +132,7 @@ html {
 }
 
 .modal_input {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   border: 2px solid rgba(222, 241, 242, 1);
@@ -157,6 +160,7 @@ html {
 }
 
 .modal_button {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   border: none;
