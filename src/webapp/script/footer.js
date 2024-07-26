@@ -138,5 +138,5 @@ const footer = `
  */
 document.addEventListener("DOMContentLoaded", () => {
   const body = document.querySelector("body");
-  body.insertAdjacentHTML("afterend", footer);
+  body.insertAdjacentHTML("beforeend", footer);
 });
