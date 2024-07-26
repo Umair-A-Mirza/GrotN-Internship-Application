@@ -24,7 +24,6 @@ const navbar = `
  * Adding navbar to the body of the document.
  */
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("here");
   const body = document.querySelector("body");
   body.insertAdjacentHTML("afterbegin", navbar); // Ensuring that navbar is the first element.
 });

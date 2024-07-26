@@ -181,7 +181,7 @@ const search = (e) => {
 };
 
 const showLocations = (e) => {
-  alert("Query Locations");
+  alert("Query Locations and Trigger Display");
 };
 
 const toggleForm = (e) => {
