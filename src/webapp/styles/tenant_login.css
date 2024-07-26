@@ -1,0 +1,4 @@
+body {
+  font-size: 16px; /* Setting base font size for rem as it is more scalable than px */
+  font-family: "Poppins", sans-serif;
+}

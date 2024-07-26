@@ -16,7 +16,7 @@ const navbar = `
         <li><a href="index.html">About Us</a></li>
     </ul>
     <div id="navbar_text">GrotN</div>
-    <button id="login_button">Log In</button>
+    <button onclick="toLogin(event)" id="login_button">Log In</button>
 </nav>
 `;
 
@@ -24,6 +24,11 @@ const navbar = `
  * Adding navbar to the body of the document.
  */
 document.addEventListener("DOMContentLoaded", () => {
+  console.log("here");
   const body = document.querySelector("body");
   body.insertAdjacentHTML("afterbegin", navbar); // Ensuring that navbar is the first element.
 });
+
+const toLogin = (e) => {
+  window.location.href = "/src/webapp/tenant_login.html";
+};
