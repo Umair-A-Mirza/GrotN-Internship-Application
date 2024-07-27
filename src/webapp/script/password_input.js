@@ -17,24 +17,22 @@ const hide = `
 `;
 
 document.addEventListener("DOMContentLoaded", () => {
-  const container = document.getElementById("pass_container");
-  const input = document.getElementById("password_input");
-  container.insertAdjacentHTML("beforeend", show);
-  container.addEventListener("click", (e) => {
-    if (e.target.classList.contains("password_eye")) {
-      const eye = document.querySelector(".password_eye");
-      eye.remove();
-      if (input.type === "password") {
-        input.type = "text";
-        container.insertAdjacentHTML("beforeend", hide);
-      } else {
-        input.type = "password";
-        container.insertAdjacentHTML("beforeend", show);
+  const passContainers = document.querySelectorAll(".pass_container");
+  passContainers.forEach((container) => {
+    const input = container.querySelector(".password_input");
+    container.insertAdjacentHTML("beforeend", show);
+    container.addEventListener("click", (e) => {
+      if (e.target.classList.contains("password_eye")) {
+        const eye = container.querySelector(".password_eye");
+        eye.remove();
+        if (input.type === "password") {
+          input.type = "text";
+          container.insertAdjacentHTML("beforeend", hide);
+        } else {
+          input.type = "password";
+          container.insertAdjacentHTML("beforeend", show);
+        }
       }
-    }
+    });
   });
 });
-
-const toggle = (e) => {
-  input = document.getElementById("password_input");
-};

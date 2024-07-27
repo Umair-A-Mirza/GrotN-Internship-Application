@@ -6,9 +6,11 @@
     <title>Tenant Log In</title>
     <script defer src="script/navigation.js"></script>
     <script defer src="script/footer.js"></script>
+    <script defer src="script/password_input.js"></script>
     <link rel="stylesheet" href="styles/navigation.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/tenant_signup.css" />
+    <link rel="stylesheet" href="styles/login_modal.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -174,7 +176,7 @@
               </div>
             </div>
             <div class="grid_row">
-              <div class="field_label">Monthly Budget</div>
+              <div class="field_label">Monthly Budget (€)</div>
               <div class="field_input_container">
                 <svg
                   class="input_icon"
@@ -225,12 +227,12 @@
                     stroke-linejoin="round"
                   />
                 </svg>
-                <input class="field_input" type="text" />
+                <input class="field_input" type="number" />
               </div>
             </div>
             <div class="grid_row">
               <div class="field_label">Password</div>
-              <div id="pass_container" class="field_input_container">
+              <div class="field_input_container pass_container">
                 <svg
                   class="input_icon"
                   width="24"
@@ -275,12 +277,12 @@
                     stroke-linejoin="round"
                   />
                 </svg>
-                <input class="field_input" type="text" />
+                <input class="field_input password_input" type="password" />
               </div>
             </div>
             <div class="grid_row">
               <div class="field_label">Re-enter Password</div>
-              <div id="pass_container" class="field_input_container">
+              <div class="field_input_container pass_container">
                 <svg
                   class="input_icon"
                   width="24"
@@ -325,11 +327,7 @@
                     stroke-linejoin="round"
                   />
                 </svg>
-                <input
-                  id="password_input"
-                  class="field_input"
-                  type="password"
-                />
+                <input class="field_input password_input" type="password" />
               </div>
             </div>
           </div>
