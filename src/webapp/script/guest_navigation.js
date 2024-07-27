@@ -16,7 +16,7 @@ const navbar = `
         <li><a href="index.html">About Us</a></li>
     </ul>
     <div id="navbar_text">GrotN</div>
-    <button onclick="proceed(event)" id="login_button">Log In</button>
+    <button onclick="proceed(event)" id="login_button" class="nav_primary_button">Log In</button>
 </nav>
 `;
 

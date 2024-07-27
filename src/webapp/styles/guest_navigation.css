@@ -1,0 +1,7 @@
+.navbar #drop {
+  cursor: pointer;
+}
+
+.navbar #drop:hover path {
+  stroke: rgba(58, 175, 169, 1);
+}

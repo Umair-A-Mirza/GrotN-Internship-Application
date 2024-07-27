@@ -20,7 +20,7 @@ body {
   padding: 2rem;
   color: white;
   border-radius: 10px;
-  min-height: 70rem;
+  min-height: 60rem;
   width: 30%;
 }
 
@@ -34,7 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 10rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
   max-width: 63rem; /* Calculated to be current grid width, grid doesn't adapt to fixed width if elements within exceed/. */
   box-sizing: border-box;
 }
