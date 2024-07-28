@@ -2,12 +2,12 @@
   position: relative;
   width: 100%;
   box-sizing: border-box;
-  min-height: 40rem;
+  min-height: 50rem;
   align-items: center;
   justify-content: center;
 }
 .glide * {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 .glide__track {
   overflow: hidden;
@@ -26,7 +26,7 @@
   display: flex;
   flex-wrap: nowrap;
   will-change: transform;
-  text-align: center;
+  justify-content: center;
 }
 .glide__slides--dragging {
   user-select: none;
@@ -39,6 +39,11 @@
   user-select: none;
   -webkit-touch-callout: none;
   -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .glide__slide a {
   user-select: none;
